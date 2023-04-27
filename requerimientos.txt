@@ -1,0 +1,4 @@
+kilomatraje que ingrese el usuario de revision solo puede set mayor o igual al actual 
+al actual registrado en el activo fijo 
+fecha tiene que ser el dia en que se hace la revidion 
+numero economico = numero de viaje tabla=
