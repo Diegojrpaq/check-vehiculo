@@ -22,12 +22,12 @@ function App() {
       <div className="container-fluid">
         <div className="row">
           <div className="col-12">
-            <div className="title ">
+            <div className="title shadow mb-4 rounded">
               <h1>{config.title}</h1>
             </div>
           </div>
         </div>
-        <div className="info">
+        <div className="info shadow">
           <div className="row">
             <div className="col-12 col-md-3">
               <p className='info-item'>{config.datainfo.head}</p>

@@ -1,29 +1,53 @@
 :root{
   
 }
+
+body{
+  /* background: #E0E4FF; */
+  /* background: #ECECEC; */
+  /* background: #f7f7ff; */
+  /* background: #EEEEFF; */
+  
+}
 .container-fluid, .container{
 
 }
 .title{
  /*  background: #004AAD;
   color: white; */
+  background: white
+  ;
   color: #004AAD;
-  border: #004AAD 2px solid;
-  margin-top: 30px;
-  padding-top: 5px;
+  border: v  1px solid;
+  /* border: #cee0f7  1px solid; */
+  margin-top: 20px;
+  /* padding-top: 5px; */
   padding-right: 10px;
   padding-bottom: 3px;
   text-align: right;
-  border-radius: 15px;
+  border-radius: 10px;
+  
 }
 
 .info{
-  margin-top: 40px ;
+  margin: 0px 0px 40px 0px;
+  background: white;
+  border-radius: 10px;
+  padding: 10px;
+  padding-bottom: 5px;
+  border: rgb(228, 223, 223) 1px solid ;
+ /*  border: #cee0f7 1px solid ; */
+
+
+}
+
+.info-item{
+  padding-top: 10px;
 }
 
 .title-secction{
-  background: red !important;
-  color: white;
+  border:1px  rgb(228, 223, 223) solid;
+  color: #004AAD;
 }
 .item-box{
   color:red;
