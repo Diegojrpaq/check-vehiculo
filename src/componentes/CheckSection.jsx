@@ -19,7 +19,51 @@ function CheckSection() {
           </div>
           <div className="row">
             <div className="col-md-6 col-7">
-              <p className='h5'>Aceite de motor </p>
+              <p className='h5'>Aceite de motor</p>
+            </div>
+            <div className="col-2">
+              <input className='form-check-input' name="checkbox1" type="radio" /* id="checkbox2" */ />
+            </div>
+            <div className="col-2">
+              <input className='form-check-input' name="checkbox1" type="radio" /* id="checkbox2" */ />
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-md-6 col-7">
+              <p className='h5'>Aceite de motor</p>
+            </div>
+            <div className="col-2">
+              <input className='form-check-input' name="checkbox1" type="radio" /* id="checkbox2" */ />
+            </div>
+            <div className="col-2">
+              <input className='form-check-input' name="checkbox1" type="radio" /* id="checkbox2" */ />
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-md-6 col-7">
+              <p className='h5'>Aceite de motor</p>
+            </div>
+            <div className="col-2">
+              <input className='form-check-input' name="checkbox1" type="radio" /* id="checkbox2" */ />
+            </div>
+            <div className="col-2">
+              <input className='form-check-input' name="checkbox1" type="radio" /* id="checkbox2" */ />
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-md-6 col-7">
+              <p className='h5'>Aceite de motor</p>
+            </div>
+            <div className="col-2">
+              <input className='form-check-input' name="checkbox1" type="radio" /* id="checkbox2" */ />
+            </div>
+            <div className="col-2">
+              <input className='form-check-input' name="checkbox1" type="radio" /* id="checkbox2" */ />
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-md-6 col-7">
+              <p className='h5'>Aceite de motor</p>
             </div>
             <div className="col-2">
               <input className='form-check-input' name="checkbox1" type="radio" /* id="checkbox2" */ />

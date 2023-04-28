@@ -16,13 +16,13 @@ function App() {
       numEco: ('NO. ECO: ' + numcamion)
     }
   }
-  
+
   return (
     <div className="App">
       <div className="container-fluid">
         <div className="row">
           <div className="col-12">
-            <div className="title shadow mb-4 rounded">
+            <div className="title shadow mb-4">
               <h1>{config.title}</h1>
             </div>
           </div>
@@ -50,7 +50,7 @@ function App() {
         <CheckSection></CheckSection>
 
         <div className="secc-registro">
-          
+
           <div className="row">
             <div className="col-4">
               <p className='h5'>Anticongelante</p>
