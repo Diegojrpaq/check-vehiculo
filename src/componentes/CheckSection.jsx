@@ -6,7 +6,7 @@ function CheckSection() {
 
     return(
        <>
-        <div className="row title-secction">
+        <div className="row title-secction shadow">
             <div className="col-md-6 col-7">
               <p className='h4'>NIVELES DE LIQUIDOS </p>
             </div>
