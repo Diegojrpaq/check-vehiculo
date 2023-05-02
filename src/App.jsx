@@ -7,7 +7,8 @@ function App() {
   let km = '500,000';
   let numcamion = 12345678;
   let config = {
-    title: 'REVISIÓN DE PUNTOS BÁSICO DEL VEHICULO',
+    /* title: 'REVISIÓN DE PUNTOS BÁSICO DEL VEHICULO', */
+    title: 'Revisión de puntos básicos del vehiculo',
     pathLogo: '',
     datainfo: {
       head: 'INFORMACION INICIAL',
@@ -48,32 +49,6 @@ function App() {
         <CheckSection></CheckSection>
         <CheckSection></CheckSection>
         <CheckSection></CheckSection>
-
-        <div className="secc-registro">
-
-          <div className="row">
-            <div className="col-4">
-              <p className='h5'>Anticongelante</p>
-            </div>
-            <div className="col-2">
-              <input type="checkbox" />
-            </div>
-            <div className="col-2">
-              <input type="checkbox" />
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-4">
-              <p className='h5'>Urea</p>
-            </div>
-            <div className="col-2">
-              <input type="checkbox" />
-            </div>
-            <div className="col-2">
-              <input type="checkbox" />
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   );

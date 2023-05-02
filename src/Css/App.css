@@ -1,6 +1,8 @@
 :root{
+  --color-azul-principal: #4132FF;
   
 }
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 body{
 /*   background: #ecf0fd; */
@@ -8,6 +10,9 @@ body{
   /* background: #e6eaff; */
   /* background: #EEEEFF; */
   
+}
+.App{
+  font-family: 'Poppins', sans-serif;
 }
 .container-info{
   background: white;
@@ -22,7 +27,7 @@ body{
   color: white; */
   background: white
   ;
-  color: #004AAD;
+  color: var(--color-azul-principal);
   border: v  1px solid;
   /* border: #cee0f7  1px solid; */
   margin-top: 20px;
@@ -60,10 +65,18 @@ body{
 .title-secction{
   border:1px  rgb(228, 223, 223) solid;
   /* background: #004AAD; */
-  border: #4132FF 1px solid;
+  border: var(--color-azul-principal) 1px solid;
   background: #E0E4FF;
   /* background: white; */
-  color: #4132FF;
+  color: var(--color-azul-principal);
+}
+.title-secction{
+  border:1px  rgb(228, 223, 223) solid;
+  /* background: #004AAD; */
+  border: var(--color-azul-principal) 1px solid;
+  background: #E0E4FF;
+  /* background: white; */
+  color: var(--color-azul-principal);
 }
 
 
