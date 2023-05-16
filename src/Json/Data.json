@@ -1,0 +1,54 @@
+{
+"status": 200,
+"seccion": [
+{
+"encabezado": "NIVELES DE LIQUIDOS",
+"detalle": [
+"Aceite de Motor",
+"Anticongelante",
+"Urea",
+"Aceite de Direccion",
+"Liquido de Frenos",
+"Liquido de Clutch",
+"Liquido Wipers"
+]
+},
+{
+"encabezado": "IMAGEN GENERAL DEL VEHICULO",
+"detalle": [
+"Golpes en Cabina Costados",
+"Golpes en Caja de Carga",
+"Condiciones de Asientos",
+"Cinturon de Seguridad",
+"Placa de Circulacion",
+"Puerta de Caja de Carga",
+"Rotulos y Razon Social"
+]
+},
+{
+"encabezado": "SISTEMA ELECTRICO",
+"detalle": [
+"Encendido del Vehiculo",
+"Condicion de Acumulador",
+"Luces Delanteras",
+"Direccionales",
+"Stop",
+"Cuartos",
+"Intermitentes",
+"Luces Caja Superior",
+"Luces Caja Inferior",
+"Instrumentos de Tablero",
+"Luz Interior de Caja"
+]
+},
+{
+"encabezado": "NEUMATICOS",
+"detalle": [
+"Llantas Delanteras",
+"Llantas Traseras",
+"Presion del Aire",
+"Condicion de Neumaticos"
+]
+}
+]
+}

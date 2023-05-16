@@ -1,6 +1,9 @@
 import './Css/App.css';
 import './logoJRM.png';
 import CheckSection from './componentes/CheckSection';
+import Data from "./Json/Data.json";
+
+
 
 function App() {
   let date = '26/04/2023';
@@ -44,11 +47,16 @@ function App() {
             </div>
           </div>
         </div>{/* fin seccion info */}
-        <CheckSection></CheckSection>
-        <CheckSection></CheckSection>
-        <CheckSection></CheckSection>
-        <CheckSection></CheckSection>
-        <CheckSection></CheckSection>
+
+        {
+          Data.seccion.map((x, index)=>{
+            console.log(x.encabezado+"numero de vuelta:" + index);       
+            return(
+              <CheckSection key={index} elemnt={x}></CheckSection>
+            );
+          }
+          )
+        }
       </div>
     </div>
   );
